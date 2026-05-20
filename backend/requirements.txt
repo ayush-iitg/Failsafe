@@ -1,0 +1,35 @@
+# ─────────────────────────────────────────────
+# FAILSAFE — Backend Dependencies
+# ─────────────────────────────────────────────
+# Install with: pip install -r requirements.txt
+
+# Web framework
+fastapi==0.111.0
+uvicorn[standard]==0.29.0      # ASGI server to run FastAPI
+
+# Database ORM + PostgreSQL driver
+sqlalchemy==2.0.30
+psycopg2-binary==2.9.9         # PostgreSQL adapter for Python
+alembic==1.13.1                # DB migrations (schema versioning)
+
+# Authentication
+python-jose[cryptography]==3.3.0  # JWT token creation & validation
+passlib[bcrypt]==1.7.4            # Password hashing
+
+# Data validation (comes with FastAPI but pinned for stability)
+pydantic==2.7.1
+pydantic-settings==2.2.1       # For loading .env config
+
+# File upload handling
+python-multipart==0.0.9
+
+# ML inference (loading saved .pkl artifacts)
+scikit-learn==1.4.2
+xgboost==2.0.3
+shap==0.45.0
+pandas==2.2.2
+numpy==1.26.4
+joblib==1.4.2
+
+# Environment variable management
+python-dotenv==1.0.1

@@ -1,0 +1,26 @@
+# ─────────────────────────────────────────────
+# FAILSAFE — ML Layer Dependencies
+# ─────────────────────────────────────────────
+# Install with: pip install -r requirements.txt
+
+# Core data manipulation
+pandas==2.2.2
+numpy==1.26.4
+
+# Machine learning models & utilities
+scikit-learn==1.4.2
+xgboost==2.0.3
+
+# Explainable AI
+shap==0.45.0
+
+# Visualisation (EDA + SHAP plots)
+matplotlib==3.8.4
+seaborn==0.13.2
+
+# Jupyter notebooks (for EDA phases)
+notebook==7.2.0
+ipykernel==6.29.4
+
+# Saving/loading model artifacts
+joblib==1.4.2

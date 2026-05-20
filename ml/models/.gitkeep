@@ -1,0 +1,4 @@
+# Trained model artifacts are saved here by train.py
+# Files generated:
+#   xgboost_model.pkl   — trained XGBoost classifier
+#   preprocessor.pkl    — fitted scikit-learn preprocessing pipeline

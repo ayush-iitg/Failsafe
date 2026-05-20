@@ -1,0 +1,4 @@
+# Jupyter notebooks live here:
+#   01_eda.ipynb           — Phase 2: Exploratory Data Analysis
+#   02_preprocessing.ipynb — Phase 3: Data Preprocessing & Pipeline
+#   03_modeling.ipynb      — Phase 4: ML Modeling & Evaluation

@@ -1,0 +1,36 @@
+# ─── Python ──────────────────────────────────
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.egg
+.venv/
+venv/
+env/
+.env                    # Contains secrets — NEVER commit
+*.pkl                   # Trained model artifacts (large binary files)
+
+# ─── Jupyter ─────────────────────────────────
+.ipynb_checkpoints/
+
+# ─── Node / React ─────────────────────────────
+node_modules/
+dist/
+build/
+.vite/
+
+# ─── IDE ─────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# ─── Logs ────────────────────────────────────
+*.log
+logs/
+
+# ─── Database ────────────────────────────────
+*.db
+*.sqlite3
+
+# ─── ML plots (auto-generated) ────────────────
+ml/plots/
