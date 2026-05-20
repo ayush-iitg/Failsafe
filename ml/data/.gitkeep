@@ -1,3 +1,26 @@
-# Place the UCI Student Performance dataset here:
-# File: student-mat.csv
-# Source: https://www.kaggle.com/datasets/uciml/student-alcohol-consumption
+# ── Dataset Download Instructions ─────────────────────────────────────────────
+#
+# DATASET: UCI Student Performance Data Set (Cortez & Silva, 2008)
+# OFFICIAL UCI PAGE: https://archive.ics.uci.edu/ml/datasets/student+performance
+#
+# DOWNLOAD FROM KAGGLE:
+#   URL: https://www.kaggle.com/datasets/uciml/student-alcohol-consumption
+#
+#   ⚠️  NOTE ON THE CONFUSING KAGGLE NAME:
+#   The Kaggle upload is titled "Student Alcohol Consumption" — this is misleading.
+#   It IS the correct UCI Student Performance dataset. The uploader named it after
+#   the Dalc/Walc (alcohol) columns, but the dataset is primarily about student
+#   academic performance (grades G1, G2, G3, absences, study time, failures, etc.)
+#
+# AFTER DOWNLOADING:
+#   1. Unzip the Kaggle download
+#   2. Copy student-mat.csv to this folder  ← Mathematics course, 395 students
+#   3. Optionally also copy student-por.csv ← Portuguese course, 649 students
+#
+# FILE FORMAT:
+#   Separator: semicolon (;)  ← NOT comma — load with pd.read_csv(..., sep=';')
+#   Encoding: UTF-8
+#
+# ALTERNATIVE DIRECT DOWNLOAD:
+#   https://archive.ics.uci.edu/static/public/320/student+performance.zip
+#   Extract student.zip → get student-mat.csv and student-por.csv

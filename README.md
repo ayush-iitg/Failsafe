@@ -130,10 +130,14 @@ Failsafe/
 
 ## 📊 Dataset
 
-**UCI Student Performance Dataset** (available on Kaggle)
-- Source: Paulo Cortez, University of Minho, Portugal
-- Features: attendance, study time, failures, family support, extracurricular activities, grades (G1, G2, G3)
-- Target: Binary — `at_risk` (1 if final grade G3 < 10, else 0)
+**UCI Student Performance Dataset** — by Paulo Cortez & A. Silva (2008)
+- **Official UCI source:** https://archive.ics.uci.edu/ml/datasets/student+performance
+- **Download on Kaggle:** https://www.kaggle.com/datasets/uciml/student-alcohol-consumption
+  > ⚠️ The Kaggle upload has a misleading name ("Student Alcohol Consumption"), but it contains
+  > the correct UCI Student Performance files: `student-mat.csv` and `student-por.csv`.
+  > We use `student-mat.csv` (Mathematics course, 395 students).
+- **Features:** grades (G1, G2), study time, failures, absences, family support, social behaviour
+- **Target:** Binary — `at_risk = 1` if final grade G3 < 10 (failing), else 0
 
 ---
 
